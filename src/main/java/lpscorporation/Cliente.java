@@ -7,4 +7,7 @@ import javax.persistence.Entity;
 
 public class Cliente {
 
+    private String cpf;
+    private String nome;
+
 }
