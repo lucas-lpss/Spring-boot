@@ -1,12 +1,14 @@
 package lpscorporation;
 
 import javax.persistence.Entity;
+import javax.persistence.Id;
 
 @Entity
 
 
 public class Cliente {
-
+    @Id
+    private Long id;
     private String cpf;
     private String nome;
 
